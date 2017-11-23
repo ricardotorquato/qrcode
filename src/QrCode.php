@@ -26,4 +26,9 @@ class Qrcode
 
         return qrcode($config, $pathPrefix);
     }
+
+    public function setPath($pathPrefix)
+    {
+        $this->pathPrefix = $pathPrefix;
+    }
 }
