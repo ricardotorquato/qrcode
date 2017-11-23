@@ -1,0 +1,6 @@
+{
+    "name": "torquato/qrcode",
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
